@@ -14,7 +14,7 @@ repo_url: https://github.com/user/repository-name
 theme:
   name: material
   icon:
-    logo: octicon/mortar-board
+    logo: material/book-heart-outline
   palette:
     - scheme: default
       primary: white
