@@ -13,10 +13,14 @@ repo_url: https://github.com/user/repository-name
 # Configuration
 theme:
   name: material
-  logo: fontawesome/solid/book
+  icon:
+    logo: octicon/mortar-board
   palette:
     - scheme: default
       primary: white
+  font:
+    text: Inter
+    code: Source Code Pro
   features:
     - navigation.expand
     - navigation.tabs
