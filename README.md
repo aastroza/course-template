@@ -1,2 +1,2 @@
-# intro-ml
-Curso: Introducción a Machine Learning para profesionales
+# Introducción a Machine Learning para profesionales
+Curso
