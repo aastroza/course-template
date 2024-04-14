@@ -1,3 +1,51 @@
+# Site information
 site_name: Course Title
+site_author: Jonh Doe
+site_description: >-
+  A very good course
+
+
+# Repository
+repo_name: user/repository-name
+repo_url: https://github.com/user/repository-name
+
+
+# Configuration
 theme:
   name: material
+  palette:
+    - scheme: default
+      primary: white
+  features:
+    - navigation.expand
+    - navigation.tabs
+    - navigation.sections
+    - announce.dismiss
+
+# Additional configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/user
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/user
+  generator: false
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+
+plugins:
+  - search
+  - section-index
+  - social:
+      cards_layout_options:
+        color: #173a58
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Welcome to the course: welcome.md
+  - Lectures:
+      - lectures/index.md
+  - Material:
+    - material/index.md
