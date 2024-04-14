@@ -1,4 +1,4 @@
-# Tïtulo del curso
+# Course Title
 
-## Instalación
+## Installation
 
