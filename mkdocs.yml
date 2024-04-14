@@ -13,6 +13,7 @@ repo_url: https://github.com/user/repository-name
 # Configuration
 theme:
   name: material
+  logo: fontawesome/solid/book
   palette:
     - scheme: default
       primary: white
@@ -49,3 +50,5 @@ nav:
       - lectures/index.md
   - Material:
     - material/index.md
+  - Instructor:
+    - instructor/index.md
