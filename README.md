@@ -1,6 +1,6 @@
 # GitHub Repository Template for Course Websites
 
-This template is designed to simplify the creation of educational course websites that automatically publish via [GitHub Pages](https://pages.github.com/), powered by [GitHub Actions](https://github.com/features/actions). Built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), this template offers a sleek, responsive design that enhances the learning experience. Perfect for educators and trainers looking to deliver content online, this repository provides a robust starting point that includes necessary configurations and detailed documentation. With just a few clicks, you can clone this repository, you can see your site go live effortlessly!
+This template is designed to simplify the creation of educational course websites that automatically publish via [GitHub Pages](https://pages.github.com/), powered by [GitHub Actions](https://github.com/features/actions). Built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), this template offers a sleek, responsive design that enhances the learning experience. Perfect for educators and trainers looking to deliver content online, this repository provides a robust starting point that includes necessary configurations and detailed documentation. With just a few clicks, you can see your site go live effortlessly!
 
 ## Installation
 
@@ -15,17 +15,6 @@ Now, the GitHub Actions will build and deploy your site for the first time. Visi
 To view your course site URL, click on the gear icon in the `About` section and then check the `Use your GitHub Pages website` checkbox.
 
 ## Additional Features
-
-### Google Analytics
-
-Go to `Settings, Enviroments, github-pages`.
-
-In `Enviroment secrets` sections, add a new secret with your GA Key:
-
-```shell
-Name: GOOGLE_ANALYTICS_KEY
-Value: UA-XXXXXXXXX-X
-```
 
 ### Material for MkDocs Philosophy
 
@@ -57,3 +46,14 @@ This is the [philosophy behind Material for MkDocs](https://squidfunk.github.io/
 - __Open Source__: Trust 20,000+ users – choose a mature and well-funded
   solution built with state-of-the-art Open Source technologies. Keep ownership
   of your content without fear of vendor lock-in. Licensed under MIT.
+
+### Google Analytics
+
+Go to `Settings, Enviroments, github-pages`.
+
+In `Enviroment secrets` sections, add a new secret with your GA Key:
+
+```shell
+Name: GOOGLE_ANALYTICS_KEY
+Value: UA-XXXXXXXXX-X
+```
