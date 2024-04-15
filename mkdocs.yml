@@ -27,17 +27,28 @@ theme:
     - navigation.sections
     - announce.dismiss
 
+
+# Copyright
+copyright: Copyright &copy; 2024 Instituto de Data Science, Facultad de Ingeniería, Universidad del Desarrollo.
+
 # Additional configuration
 extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/user
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/user
-  generator: false
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:johndoe@udd.cl
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - search
@@ -46,6 +57,9 @@ plugins:
       cards_layout_options:
         color: #173a58
 
+markdown_extensions:
+  - attr_list
+  
 nav:
   - Home: index.md
   - Getting Started:
