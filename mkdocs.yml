@@ -56,9 +56,6 @@ plugins:
   - social:
       cards_layout_options:
         color: #173a58
-
-markdown_extensions:
-  - attr_list
   
 nav:
   - Home: index.md
