@@ -37,7 +37,7 @@ nav:
 
 Everything is writing using [Markdown](https://www.markdownguide.org/basic-syntax/) files in the [docs](docs) folder. Just add new `.md` files or modify existing ones using [Markdown Syntax](https://yakworks.github.io/docmark/cheat-sheet/).
 
-Every time you make a change to the main branch, the `GitHub Actions` process starts again, and your site is generated and published. In a few seconds, you will see your changes go live!
+Every time you push a change to the main branch, the `GitHub Actions` process starts again, and your site is generated and published. In a few seconds, you will see your changes go live!
 
 ## Additional Features
 
