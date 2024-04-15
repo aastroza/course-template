@@ -14,6 +14,31 @@ Now, the GitHub Actions will build and deploy your site for the first time. Visi
 
 To view your course site URL, click on the gear icon in the `About` section and then check the `Use your GitHub Pages website` checkbox.
 
+## Usage
+
+Just clone the repo and modify the files using VSCode, or make changes directly on the GitHub website if you're comfortable with it.
+
+This website is built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). You should read their documentation to understand what's going on. Simply put, to modify the site structure, you need to change the `[mkdocs.yml](mkdocs.yml)` file. 
+
+You can modify the `nav` section to create new pages and sections:
+
+```yaml
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Welcome to the course: welcome.md
+  - Lectures:
+      - lectures/index.md
+  - Material:
+    - material/index.md
+  - Instructor:
+    - instructor/index.md
+```
+
+Everything is writing using [Markdown](https://www.markdownguide.org/basic-syntax/) files in the [docs](docs) folder. Just add new `.md` files or modify existing ones using [Markdown Syntax](https://yakworks.github.io/docmark/cheat-sheet/).
+
+Every time you make a change to the main branch, the `GitHub Actions` process starts again, and your site is generated and published. In a few seconds, you will see your changes go live!
+
 ## Additional Features
 
 ### Material for MkDocs Philosophy
