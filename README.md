@@ -18,7 +18,7 @@ To view your course site URL, click on the gear icon in the `About` section and 
 
 Just clone the repo and modify the files using VSCode, or make changes directly on the GitHub website if you're comfortable with it.
 
-This website is built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). You should read their documentation to understand what's going on. Simply put, to modify the site structure, you need to change the `[mkdocs.yml](mkdocs.yml)` file. 
+This website is built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). You should read their documentation to understand what's going on. Simply put, to modify the site structure, you need to change the [`mkdocs.yml`](mkdocs.yml) file. 
 
 You can modify the `nav` section to create new pages and sections:
 
