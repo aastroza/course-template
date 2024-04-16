@@ -1,3 +1,5 @@
+[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+
 # GitHub Repository Template for Course Websites
 
 This template is designed to simplify the creation of educational course websites that automatically publish via [GitHub Pages](https://pages.github.com/), powered by [GitHub Actions](https://github.com/features/actions). Built using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), this template offers a sleek, responsive design that enhances the learning experience. Perfect for educators and trainers looking to deliver content online, this repository provides a robust starting point that includes necessary configurations and detailed documentation. With just a few clicks, you can see your site go live effortlessly!
