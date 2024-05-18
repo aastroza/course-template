@@ -26,6 +26,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - announce.dismiss
+    - content.tabs.link
 
 
 # Copyright
@@ -38,7 +39,7 @@ extra:
     property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/solid/paper-plane
-      link: mailto:johndoe@udd.cl
+      link: mailto:johndoe@mail.com
 
 markdown_extensions:
   - attr_list
@@ -46,6 +47,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -65,5 +68,7 @@ nav:
       - lectures/index.md
   - Material:
     - material/index.md
+  - Cookbook:
+    - cookbook/index.md    
   - Instructor:
     - instructor/index.md
